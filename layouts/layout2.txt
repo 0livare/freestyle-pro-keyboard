@@ -17,5 +17,10 @@ fn [lalt]>[lwin]
 fn [ralt]>[rwin]
 fn [rctrl]>[ralt]
 
+* PRINT SCREEN > save a screenshot to the clipboard
 {prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
+* SHIFT + PRINT SCREEN > save a screenshot as a file 
 {lshft}{prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
+
+* SHIFT + 6 > create a backtick
+{rshft}{6}>{x1}{tilde}
