@@ -1,9 +1,3 @@
-{hk1}>{s5}{x1}{F11}
-{hk2}>{s5}{x1}{-lwin}{tab}{+lwin}
-{hk3}>{s5}{x1}{-lwin}{a}{+lwin}
-{hk4}>{s5}{x1}{-lwin}{z}{+lwin}
-{hk5}>{s5}{x1}{-lwin}{x}{+lwin}
-{hk6}>{s1}{del}
 {hk7}>{s5}{x1}{-lwin}{c}{+lwin}
 {hk8}>{s5}{x1}{-lwin}{v}{+lwin}
 {hk10}>{s5}{x1}{rmous}
@@ -17,6 +11,8 @@ fn [lalt]>[lwin]
 fn [ralt]>[rwin]
 fn [rctrl]>[ralt]
 
+* Manual: https://kinesis-ergo.com/wp-content/uploads/freestyle-pro-manual.pdf
+
 * PRINT SCREEN > save a screenshot to the clipboard
 {prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
 * SHIFT + PRINT SCREEN > save a screenshot as a file 
@@ -28,3 +24,11 @@ fn [rctrl]>[ralt]
 * the key itself does and what shift+ the key does
 {colon}>{x1}{tilde}
 {tilde}>{x1}{colon}
+
+* Assign hot keys to Magnet window management shortcuts
+{hk1}>{s5}{x1}{-lctrl}{-alt}{e}{+lctrl}{+alt}
+{hk2}>{s5}{x1}{-lctrl}{-alt}{t}{+lctrl}{+alt}
+{hk3}>{s5}{x1}{-lctrl}{-alt}{d}{+lctrl}{+alt}
+{hk4}>{s5}{x1}{-lctrl}{-alt}{g}{+lctrl}{+alt}
+{hk5}>{s5}{x1}{-lctrl}{-alt}{f}{+lctrl}{+alt}
+[hk6]>[BSPC]
