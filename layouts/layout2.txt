@@ -22,5 +22,9 @@ fn [rctrl]>[ralt]
 * SHIFT + PRINT SCREEN > save a screenshot as a file 
 {lshft}{prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
 
-* SHIFT + 6 > create a backtick
-{rshft}{6}>{x1}{tilde}
+* Swap semicolon and backtick keys, but leave colon and tilde alone
+*
+* Creating key mappings instead of macros here would swap both what
+* the key itself does and what shift+ the key does
+{colon}>{x1}{tilde}
+{tilde}>{x1}{colon}
