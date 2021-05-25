@@ -1,6 +1,5 @@
 {hk7}>{s5}{x1}{-lwin}{c}{+lwin}
 {hk8}>{s5}{x1}{-lwin}{v}{+lwin}
-{hk10}>{s5}{x1}{rmous}
 [lwin]>[lalt]
 [lalt]>[lwin]
 [lspc]>[lwin]
@@ -32,3 +31,4 @@ fn [rctrl]>[ralt]
 {hk4}>{s5}{x1}{-lctrl}{-alt}{g}{+lctrl}{+alt}
 {hk5}>{s5}{x1}{-lctrl}{-alt}{f}{+lctrl}{+alt}
 [hk6]>[BSPC]
+{hk10}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
