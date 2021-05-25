@@ -1,10 +1,27 @@
-{lshft}{prnt}>{s5}{x1}{a}{s}{d}{f}
-{hk1}>{s5}{x1}{-lwin}{d}{+lwin}
-{hk2}>{s5}{x1}{-lalt}{tab}{+lalt}
-{hk3}>{s5}{x1}{-lctrl}{a}{+lctrl}
-{hk4}>{s5}{x1}{-lctrl}{z}{+lctrl}
-{hk5}>{s5}{x1}{-lctrl}{x}{+lctrl}
-{hk6}>{s1}{del}
-{hk7}>{s5}{x1}{-lctrl}{c}{+lctrl}
-{hk8}>{s5}{x1}{-lctrl}{v}{+lctrl}
-{lalt}{z}>{x1}{ctrl}{alt}{lwin}
+{hk7}>{s5}{x1}{-lwin}{c}{+lwin}
+{hk8}>{s5}{x1}{-lwin}{v}{+lwin}
+{hk10}>{s5}{x1}{rmous}
+[lwin]>[lalt]
+[lalt]>[lwin]
+[lspc]>[lwin]
+[ralt]>[rwin]
+[rctrl]>[ralt]
+fn [lwin]>[lalt]
+fn [lalt]>[lwin]
+fn [ralt]>[rwin]
+fn [rctrl]>[ralt]
+
+* Manual: https://kinesis-ergo.com/wp-content/uploads/freestyle-pro-manual.pdf
+
+* PRINT SCREEN > save a screenshot to the clipboard
+{prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
+* SHIFT + PRINT SCREEN > save a screenshot as a file 
+{lshft}{prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
+
+* Assign hot keys to Magnet window management shortcuts
+{hk1}>{s5}{x1}{-lctrl}{-alt}{e}{+lctrl}{+alt}
+{hk2}>{s5}{x1}{-lctrl}{-alt}{t}{+lctrl}{+alt}
+{hk3}>{s5}{x1}{-lctrl}{-alt}{d}{+lctrl}{+alt}
+{hk4}>{s5}{x1}{-lctrl}{-alt}{g}{+lctrl}{+alt}
+{hk5}>{s5}{x1}{-lctrl}{-alt}{f}{+lctrl}{+alt}
+[hk6]>[BSPC]
