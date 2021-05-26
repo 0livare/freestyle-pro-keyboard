@@ -2,7 +2,6 @@
 {hk8}>{s5}{x1}{-lwin}{v}{+lwin}
 [lwin]>[lalt]
 [lalt]>[lwin]
-[lspc]>[lwin]
 [ralt]>[rwin]
 [rctrl]>[ralt]
 fn [lwin]>[lalt]
