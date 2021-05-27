@@ -1,5 +1,7 @@
-{hk7}>{s5}{x1}{-lwin}{c}{+lwin}
-{hk8}>{s5}{x1}{-lwin}{v}{+lwin}
+{hk5}>{x1}{s5}{-lwin}{x}{+lwin}
+{hk7}>{x1}{s5}{-lwin}{c}{+lwin}
+{hk8}>{x1}{s5}{-lwin}{v}{+lwin}
+{hk10}>{x1}{s5}{rmous}
 [lwin]>[lalt]
 [lalt]>[lwin]
 [ralt]>[rwin]
@@ -17,10 +19,9 @@ fn [rctrl]>[ralt]
 {lshft}{prnt}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
 
 * Assign hot keys to Magnet window management shortcuts
-{hk1}>{s5}{x1}{-lctrl}{-alt}{e}{+lctrl}{+alt}
-{hk2}>{s5}{x1}{-lctrl}{-alt}{t}{+lctrl}{+alt}
+{hk1}>{s5}{x1}{-lctrl}{-alt}{f}{+lctrl}{+alt}
+{hk2}>{s5}{x1}{-lctrl}{-alt}{ENT}{+lctrl}{+alt}
 {hk3}>{s5}{x1}{-lctrl}{-alt}{d}{+lctrl}{+alt}
 {hk4}>{s5}{x1}{-lctrl}{-alt}{g}{+lctrl}{+alt}
-{hk5}>{s5}{x1}{-lctrl}{-alt}{f}{+lctrl}{+alt}
 [hk6]>[BSPC]
 {hk10}>{x1}{s5}{-lshft}{-lwin}{-lctrl}{4}{+lshft}{+lwin}{+lctrl}
